@@ -1,0 +1,91 @@
+#todo-list {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#todo-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add margin to separate form from list */
+}
+
+#todo-input {
+    width: 70%;
+    margin-right: 20px;
+    color: rgb(56, 98, 177);
+    border-radius: 5px;
+    border: solid rgb(24, 147, 178) 5px;
+    padding: 8px;
+    font-size: 20px;
+    transition: border-color 0.3s;
+     /* Add transition for border color */
+    -webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -ms-transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+}
+
+#btn {
+    background-color: rgb(49, 215, 49);
+    color: wheat;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+     /* Add transition for background color */
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+}
+
+li {
+    margin: 20px;
+    list-style: none;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+     /* Add transition for transform */
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+}
+
+button {
+    margin-left: 20px;
+}
+
+/* Add hover effects */
+#btn:hover {
+    background-color: rgb(167, 142, 142);
+}
+
+li:hover {
+    transform: scale(1.05);
+     /* Add scale effect on hover */
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.delete-button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(33, 120, 196);
+    transition: transform 0.3s ease-out;
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -ms-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+}
+.delete-button:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
